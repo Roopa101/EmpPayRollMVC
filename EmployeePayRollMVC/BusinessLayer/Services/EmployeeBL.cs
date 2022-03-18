@@ -37,17 +37,7 @@ namespace BusinessLayer.Services
                 throw e;
             }
         }
-        //public void GetEmployeeData(int? id)
-        //{
-        //    try
-        //    {
-        //        employeeRL.GetEmployeeData(id);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw e;
-        //    }
-        //}
+
 
         public void DeleteEmployee(int? id)
         {
