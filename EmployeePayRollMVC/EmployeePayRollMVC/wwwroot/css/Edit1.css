@@ -1,0 +1,19 @@
+﻿.bodyedit {
+    padding-left: 10px;
+    text-align: center;
+}
+.head {
+    text-align: left;
+}
+.row2 {
+    text-align: start;
+    background-color: #f7f7f7;
+}
+.editform-group {
+    width: 360px;
+    margin-left: 380px;
+}
+
+.control-label {
+    text-align: start;
+}
