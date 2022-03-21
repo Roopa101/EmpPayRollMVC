@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace CommonLayer.Model
@@ -13,6 +14,7 @@ namespace CommonLayer.Model
         public string Gender { get; set; }
 
         public string Department { get; set; }
+        [Range(0,50000)]
         public string Salary { get; set; }
         public string Start_date { get; set; }
         public  string Notes { get; set; }
